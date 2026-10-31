@@ -1,0 +1,534 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Happy Birthday Zahwa ♡</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Georgia, serif;
+    background: #fff5f8;
+    color: #713e53;
+}
+
+/* HEADER */
+
+header {
+    background: #f5b6cc;
+    text-align: center;
+    padding: 25px 15px;
+    border-bottom: 3px solid #e58aaa;
+}
+
+header h1 {
+    font-size: 30px;
+    color: #873d5c;
+}
+
+header p {
+    margin-top: 8px;
+    font-style: italic;
+}
+
+/* NAVIGASI */
+
+nav {
+    background: #fff;
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 3px 10px #e8c2d0;
+}
+
+nav a {
+    display: inline-block;
+    color: #a34d70;
+    text-decoration: none;
+    margin: 5px 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #e77ca2;
+}
+
+/* SECTION */
+
+section {
+    padding: 65px 8%;
+    text-align: center;
+    scroll-margin-top: 65px;
+}
+
+.judul {
+    font-size: 30px;
+    color: #bd6488;
+    margin-bottom: 20px;
+}
+
+/* HOME */
+
+#home {
+    min-height: 570px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:
+      linear-gradient(#fff1f5dd, #ffe3eddd);
+}
+
+.hero {
+    max-width: 700px;
+    padding: 35px;
+    background: white;
+    border: 2px dashed #e9a3bc;
+    border-radius: 25px;
+    box-shadow: 0 5px 20px #eac3d0;
+}
+
+.hero h2 {
+    font-size: 43px;
+    color: #d56f96;
+    margin-bottom: 15px;
+}
+
+.hero h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    line-height: 1.9;
+}
+
+.tanggal {
+    margin: 20px 0;
+    color: #c05d83;
+    font-weight: bold;
+}
+
+/* TOMBOL */
+
+button {
+    background: #e58aaa;
+    color: white;
+    border: none;
+    padding: 13px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 15px;
+    margin: 8px;
+}
+
+button:hover {
+    background: #c96389;
+}
+
+/* GALERI */
+
+.gallery {
+    display: grid;
+    grid-template-columns:
+        repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.photo {
+    background: white;
+    padding: 12px;
+    border: 2px solid #f2bfd0;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px #e9cad5;
+    transform: rotate(-1deg);
+    transition: 0.3s;
+}
+
+.photo:nth-child(even) {
+    transform: rotate(1deg);
+}
+
+.photo:hover {
+    transform: translateY(-6px) rotate(0);
+}
+
+.photo img {
+    width: 100%;
+    height: 290px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.photo p {
+    margin-top: 12px;
+    font-style: italic;
+}
+
+/* PARAGRAF GALERI */
+
+.caption {
+    max-width: 750px;
+    margin: 35px auto 0;
+    padding: 25px;
+    background: #fff;
+    border-radius: 18px;
+    border: 1px dashed #e6a1b9;
+    line-height: 2;
+}
+
+/* DOA */
+
+#doa {
+    background: #ffe9f0;
+}
+
+.doa-box {
+    max-width: 750px;
+    background: white;
+    padding: 35px;
+    margin: auto;
+    border-radius: 25px;
+    border: 2px dashed #e58aaa;
+    line-height: 2;
+    box-shadow: 0 5px 15px #e8c2d0;
+}
+
+.doa-box h3 {
+    color: #c65e85;
+    margin-bottom: 20px;
+}
+
+/* FOOTER */
+
+footer {
+    background: #e9a3bc;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    line-height: 2;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:600px) {
+    .hero h2 {
+        font-size: 32px;
+    }
+
+    .judul {
+        font-size: 25px;
+    }
+
+    section {
+        padding: 50px 5%;
+    }
+
+    nav a {
+        margin: 5px;
+        font-size: 12px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>♡ A Special Day for Zahwa ♡</h1>
+    <p>A little scrapbook full of love and memories</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#zahwa">Her Gallery</a>
+    <a href="#memories">Our Memories</a>
+    <a href="#doa">Doa & Harapan</a>
+</nav>
+
+<!-- HOME -->
+
+<section id="home">
+
+    <div class="hero">
+
+        <h2>Happy Birthday!</h2>
+
+        <h3>Zahwa Az-Zahra Novaliana ♡</h3>
+
+        <p>
+            Today is all about you!
+            A special day for someone who deserves
+            happiness, love, and beautiful things
+            in every step of her life.
+        </p>
+
+        <div class="tanggal">
+            01 November 2010
+        </div>
+
+        <p>
+            Happy Sweet Sixteen, Zahwa! 🎀
+            <br>
+            May your days always be filled
+            with happiness and beautiful memories.
+        </p>
+
+        <br>
+
+        <button onclick="putarMusik()" id="tombolMusik">
+            ♫ Play A Thousand Years
+        </button>
+
+        <p style="font-size:12px;">
+            A little song for your special day ♡
+        </p>
+
+    </div>
+
+</section>
+
+<!-- MUSIK -->
+
+<audio id="musik" loop>
+    <source src="A Thousand Years.mp3.mp3" type="audio/mpeg">
+</audio>
+
+<!-- FOTO ZAHWA SENDIRI -->
+
+<section id="zahwa">
+
+    <h2 class="judul">♡ Her Little Gallery ♡</h2>
+
+    <p>
+        Six little pictures, endless reasons to smile.
+    </p>
+
+    <div class="gallery">
+
+        <div class="photo">
+            <img src="zahwa1.jpeg" alt="Zahwa foto pertama">
+            <p>A beautiful moment of you ♡</p>
+        </div>
+
+        <div class="photo">
+            <img src="zahwa 2.jpeg" alt="Zahwa foto kedua">
+            <p>Keep being your lovely self.</p>
+        </div>
+
+        <div class="photo">
+            <img src="zahwa 3.jpeg" alt="Zahwa foto ketiga">
+            <p>Little moments, lovely memories.</p>
+        </div>
+
+        <div class="photo">
+            <img src="zahwa 4.jpeg" alt="Zahwa foto keempat">
+            <p>Never stop shining, Zahwa.</p>
+        </div>
+
+        <div class="photo">
+            <img src="zahwa 5.jpeg" alt="Zahwa foto kelima">
+            <p>Your smile makes everything brighter.</p>
+        </div>
+
+        <div class="photo">
+            <img src="zahwa 6.jpeg" alt="Zahwa foto keenam">
+            <p>Another page of your beautiful story.</p>
+        </div>
+
+    </div>
+
+    <div class="caption">
+
+        <h3>Dear Zahwa, ♡</h3>
+
+        <p>
+            Dari sekian banyak foto yang ada,
+            semuanya punya cerita dan keindahannya sendiri.
+            Tetaplah menjadi Zahwa yang ceria,
+            kuat, dan selalu punya alasan untuk tersenyum.
+            Jangan pernah berhenti mengejar mimpi-mimpimu.
+            Semoga setiap langkah yang kamu ambil
+            membawa kamu menuju hal-hal baik.
+            You deserve all the happiness in the world!
+        </p>
+
+    </div>
+
+</section>
+
+<!-- FOTO BERSAMA -->
+
+<section id="memories">
+
+    <h2 class="judul">♡ Our Little Memories ♡</h2>
+
+    <p>
+        Three pictures, a thousand memories.
+    </p>
+
+    <div class="gallery">
+
+        <div class="photo">
+            <img src="velisazahwa1.jpeg" alt="Foto bersama pertama">
+            <p>Just us being us ♡</p>
+        </div>
+
+        <div class="photo">
+            <img src="velisazahwa2.jpeg" alt="Foto bersama kedua">
+            <p>From little moments to forever memories.</p>
+        </div>
+
+        <div class="photo">
+            <img src="velisazahwa3.jpeg" alt="Foto bersama ketiga">
+            <p>Every picture has its own story.</p>
+        </div>
+
+    </div>
+
+    <div class="caption">
+
+        <h3>Our Memories ♡</h3>
+
+        <p>
+            Ternyata waktu berjalan begitu cepat,
+            dari foto masa kecil sampai foto kita sekarang.
+            Banyak cerita, tawa, dan momen sederhana
+            yang mungkin terlihat biasa,
+            tetapi akan selalu punya tempat tersendiri
+            untuk dikenang.
+            Semoga kita bisa terus membuat
+            lebih banyak kenangan indah bersama.
+        </p>
+
+    </div>
+
+</section>
+
+<!-- DOA DAN HARAPAN -->
+
+<section id="doa">
+
+    <h2 class="judul">♡ My Prayers & Wishes ♡</h2>
+
+    <div class="doa-box">
+
+        <h3>For You, Zahwa ♡</h3>
+
+        <p>
+            Di hari spesialmu ini, aku berdoa
+            semoga Allah selalu memberikan
+            kesehatan, umur yang berkah,
+            kebahagiaan, dan perlindungan
+            di setiap langkah hidupmu.
+        </p>
+
+        <br>
+
+        <p>
+            Semoga semua impian yang sedang kamu
+            perjuangkan satu per satu bisa terwujud.
+            Semoga kamu selalu dikelilingi
+            orang-orang baik, diberikan kemudahan
+            dalam setiap urusan, dan tetap kuat
+            menghadapi segala hal.
+        </p>
+
+        <br>
+
+        <p>
+            Jangan takut untuk tumbuh dan mencoba
+            hal-hal baru. Teruslah belajar,
+            tersenyum, dan menjadi pribadi
+            yang lebih baik setiap harinya.
+        </p>
+
+        <br>
+
+        <p>
+            Terima kasih sudah menjadi bagian
+            dari banyak cerita dan kenangan.
+            Semoga kebahagiaan selalu menyertaimu.
+        </p>
+
+        <br>
+
+        <h3>
+            Happy Sweet Sixteen, Zahwa!
+        </h3>
+
+        <p>
+            With love, from someone
+            who wishes you nothing but the best. ♡
+        </p>
+
+        <br>
+
+        <p style="font-size:25px;">
+            🎀 ♡ 🌷 ♡ 🎀
+        </p>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <h3>Made with Love ♡</h3>
+
+    <p>
+        For Zahwa Az-Zahra Novaliana
+    </p>
+
+    <p>
+        01 November 2010
+    </p>
+
+    <p>
+        © A little birthday scrapbook
+    </p>
+
+</footer>
+
+<script>
+
+function putarMusik() {
+
+    const musik = document.getElementById("musik");
+    const tombol = document.getElementById("tombolMusik");
+
+    if (musik.paused) {
+
+        musik.play();
+
+        tombol.innerHTML = "❚❚ Pause Music";
+
+    } else {
+
+        musik.pause();
+
+        tombol.innerHTML = "♫ Play A Thousand Years";
+
+    }
+
+}
+
+</script>
+
+</body>
+</html>
